@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SAS_Arrays
+namespace Start
 {
     class Program
     {
