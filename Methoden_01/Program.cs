@@ -16,16 +16,25 @@ namespace Methoden_01
 
         static int outputoftextTimesX() 
         {
+            string word;
+            int x;
 
+            try 
+            { 
             Console.WriteLine("Bitte geben sie ein beliebiges Wort ein");
-            string word = Console.ReadLine();
+            word = Console.ReadLine();
             Console.Clear();
 
             Console.WriteLine("Bestimmen sie nun die Anzahl der ausgegebenen Wörtern");
-            int x = Convert.ToInt32(Console.ReadLine());
+            x = Convert.ToInt32(Console.ReadLine());
             Console.Clear();
+            }
+            catch (Exception) 
+            { 
+            
+            }
 
-            for(int i=0; i < x; i++) 
+            for (int i=0; i < x; i++) 
             {
 
                 Console.WriteLine(word);
