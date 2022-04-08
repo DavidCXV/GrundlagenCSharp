@@ -6,39 +6,26 @@ namespace Hotel_Check_In
     {
         static void Main(string[] args)
         {
-            Personen gast1 = new Personen();
+            Personen gast1 = new Personen(45, "John", "Lennon", 1,82.46);
 
-            gast1.roomnumber = 45;
-            gast1.firstname = "John";
-            gast1.surname = "Lennon";
-            gast1.sleepovers = 1;
-            gast1.invoiceamount = 82.46;
+            
 
-            Personen gast2 = new Personen();
+            Personen gast2 = new Personen(45, "Paul", "McCartney", 4, 329.84);
 
-            gast2.roomnumber = 45;
-            gast2.firstname = "Paul";
-            gast2.surname = "McCartney";
-            gast2.sleepovers = 4;
-            gast2.invoiceamount = 329.84;
+            
 
-            Personen gast3 = new Personen();
+            Personen gast3 = new Personen(45, "George", "Harrison", 12, 989.52);
 
-            gast3.roomnumber = 45;
-            gast3.firstname = "George";
-            gast3.surname = "Harrison";
-            gast3.sleepovers = 12;
-            gast3.invoiceamount = 989.52;
+            
 
-            Personen gast4 = new Personen();
+            Personen gast4 = new Personen(45, "Ringo", "Starr", 3, 247.38);
 
-            gast4.roomnumber = 45;
-            gast4.firstname = "Ringo";
-            gast4.surname = "Starr";
-            gast4.sleepovers = 3;
-            gast4.invoiceamount = 247.38;
+            
 
-            //Personen[] gaeste = 
+            Personen[] gaeste = { gast1, gast2, gast3, gast4 };
+            
+
+            //gaeste.
         }
     }
 }
