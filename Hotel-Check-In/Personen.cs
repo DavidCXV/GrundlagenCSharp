@@ -31,8 +31,6 @@ namespace Hotel_Check_In
         public string firstname { get; set; }
         public string surname { get; set; }
         #endregion
-
-
-
+              
     }
 }
