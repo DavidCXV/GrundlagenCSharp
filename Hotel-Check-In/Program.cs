@@ -53,7 +53,7 @@ namespace Hotel_Check_In
 
                 }
             
-
+            
 
             if (erfolg==true)
             {
@@ -69,13 +69,6 @@ namespace Hotel_Check_In
 
         }
 
-        //static (bool, Personen) GetData(string diff, Personen[] gaesteliste)
-        //{
-
-        //    return;
-
-        //    return;
-
-        //}
+        
     }
 }
